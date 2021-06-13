@@ -1,0 +1,8 @@
+﻿  bigreal.cpp
+  main.cpp
+  fractal.cpp
+E:\c++\mondelset\mondelset\fractal.cpp(97,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+E:\c++\mondelset\mondelset\fractal.cpp(98,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+E:\c++\mondelset\mondelset\fractal.cpp(99,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  selection.cpp
+LINK : fatal error LNK1181: не удается открыть входной файл "glew32s.lib"

@@ -1,0 +1,39 @@
+//uniform vec4 color; 
+
+
+uniform vec2 center;
+uniform float window=2;
+
+float w = 0.0327868969179689884185791015625;
+float c_x = 0.01539792655967175960540771484375, c_y = 0.65663110162131488323211669921875;
+float iResolution = 1024.0;
+
+void main() { 
+	float x = 0.0;
+    float y = 0.0;
+    float a_x = center.x + gl_FragCoord.x * window / iResolution - window / 2.0;
+    float b_y = -center.y - gl_FragCoord.y * window / iResolution + window / 2.0;
+    
+    float x_i = 0.0;
+    float y_i = 0.0;
+    for(int i = 0; i < 5000; i++){
+        x_i = (x-y) * (x + y) + a_x;
+        y_i = 2.0 * x * y + b_y;
+        
+        if(x_i * x_i + y_i * y_i > 4.0){
+            float r = 0.1 + float(i) * 0.03 * 0.2; //расчет 
+          	float g = 0.2 + float(i) * 0.03 * 0.3; //значений
+          	float b = 0.3 + float(i) * 0.03 * 0.1;
+            //gl_FragColor = vec4(float(i)/255.0, float(i)/255.0, float(i)/255.0, 1.0);
+            gl_FragColor = vec4(r, g, b, 1.0);
+
+            return;
+        }
+        x = x_i;
+        y = y_i;
+    }
+    
+    gl_FragColor = vec4(1.0, 1.0, 1.0, 1.0);
+    return;
+
+}

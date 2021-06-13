@@ -1,0 +1,36 @@
+﻿  bigreal.cpp
+E:\c++\mondelset\mondelset\bigreal.cpp(84,25): warning C4101: multiplication: неиспользованная локальная переменная
+E:\c++\mondelset\mondelset\bigreal.cpp(143,27): warning C4018: <: несоответствие типов со знаком и без знака
+E:\c++\mondelset\mondelset\bigreal.cpp(172,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\c++\mondelset\mondelset\bigreal.cpp(320,27): warning C4018: <: несоответствие типов со знаком и без знака
+  drawable.cpp
+  fractal.cpp
+E:\c++\mondelset\mondelset\fractal.cpp(61,31): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+E:\c++\mondelset\mondelset\fractal.cpp(62,31): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+E:\c++\mondelset\mondelset\fractal.cpp(63,31): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+E:\c++\mondelset\mondelset\fractal.cpp(53,12): warning C4101: color: неиспользованная локальная переменная
+E:\c++\mondelset\mondelset\fractal.cpp(124,42): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+E:\c++\mondelset\mondelset\fractal.cpp(197,42): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+E:\c++\mondelset\mondelset\fractal.cpp(254,42): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  main.cpp
+E:\c++\mondelset\mondelset\main.cpp(21,35): warning C4838: Преобразование из "_Ty" в "float" требует сужающего преобразования.
+          with
+          [
+              _Ty=double
+          ]
+E:\c++\mondelset\mondelset\main.cpp(21,35): warning C4244: инициализация: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+E:\c++\mondelset\mondelset\main.cpp(21,50): warning C4838: Преобразование из "_Ty" в "float" требует сужающего преобразования.
+          with
+          [
+              _Ty=double
+          ]
+E:\c++\mondelset\mondelset\main.cpp(21,50): warning C4244: инициализация: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+E:\c++\mondelset\mondelset\main.cpp(25,27): warning C4244: аргумент: преобразование "double" в "GLfloat", возможна потеря данных
